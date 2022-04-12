@@ -115,7 +115,7 @@ class Home extends Component {
           return (
             <Link to={`/books/${id}`} className="slick-btn" key={id}>
               <li className="slick-book-div">
-                <img className="book-img" src={coverPic} alt="Book Cover pic" />
+                <img className="book-img" src={coverPic} alt={title} />
                 <h1 className="title">{title}</h1>
                 <p className="author">{authorName}</p>
               </li>
